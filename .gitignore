@@ -1,0 +1,25 @@
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+
+# Environment variables (JANGAN DI-PUSH KE GIT!)
+.env
+*.env.local
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# IDE & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs & temp files
+*.log
+scratch/
